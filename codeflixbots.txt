@@ -1,0 +1,95 @@
+[23-Nov-24 17:09:44 - WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] (caused by "channels.GetChannels") Pyrogram 2.3.45 thinks: The channel parameter is invalid
+[23-Nov-24 17:09:44 - WARNING] - bot - Bot can't Export Invite link from Force Sub Channel!
+[23-Nov-24 17:09:44 - WARNING] - bot - Please Double check the FORCESUB_CHANNEL value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: -1002108419450
+[23-Nov-24 17:09:44 - INFO] - bot - 
+Bot Stopped. Join https://t.me/weebs_support for support
+[23-Nov-24 17:11:01 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[23-Nov-24 17:11:01 - INFO] - bot -  
+
+       
+(っ◔◡◔)っ ♥ ULTROIDOFFICIAL ♥
+░╚════╝░░╚════╝░╚═════╝░╚══════╝
+                                          
+[23-Nov-24 17:11:13 - ERROR] - pyrogram.dispatcher - you are over your space quota, using 512 MB of 512 MB, full error: {'ok': 0, 'errmsg': 'you are over your space quota, using 512 MB of 512 MB', 'code': 8000, 'codeName': 'AtlasError'}
+Traceback (most recent call last):
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pyromod/listen/listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "/home/sandeepjangra7077/aaa/UxB-file-sharing-main/plugins/start.py", line 161, in start_command
+    await update_verify_status(id, verify_token=token, link="")
+  File "/home/sandeepjangra7077/aaa/UxB-file-sharing-main/helper_func.py", line 110, in update_verify_status
+    await db_update_verify_status(user_id, current)
+  File "/home/sandeepjangra7077/aaa/UxB-file-sharing-main/database/database.py", line 43, in db_update_verify_status
+    await user_data.update_one({'_id': user_id}, {'$set': {'verify_status': verify}})
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/collection.py", line 1291, in update_one
+    self._update_retryable(
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/collection.py", line 1086, in _update_retryable
+    return self._database.client._retryable_write(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1898, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1784, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/_csot.py", line 120, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1830, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2554, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2676, in _write
+    return self._func(self._session, conn, self._retryable)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/collection.py", line 1067, in _update
+    return self._update(
+           ^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/collection.py", line 1019, in _update
+    conn.command(
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/helpers.py", line 45, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/pool.py", line 538, in command
+    return command(
+           ^^^^^^^^
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/synchronous/network.py", line 218, in command
+    helpers_shared._check_command_response(
+  File "/home/sandeepjangra7077/.local/lib/python3.12/site-packages/pymongo/helpers_shared.py", line 247, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: you are over your space quota, using 512 MB of 512 MB, full error: {'ok': 0, 'errmsg': 'you are over your space quota, using 512 MB of 512 MB', 'code': 8000, 'codeName': 'AtlasError'}
+[23-Nov-24 17:12:17 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[23-Nov-24 17:12:20 - INFO] - bot - Bot stopped.
+[23-Nov-24 17:13:21 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[23-Nov-24 17:13:21 - INFO] - bot -  
+
+       
+(っ◔◡◔)っ ♥ ULTROIDOFFICIAL ♥
+░╚════╝░░╚════╝░╚═════╝░╚══════╝
+                                          
+[23-Nov-24 17:13:53 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[23-Nov-24 17:13:55 - INFO] - bot - Bot stopped.
+[23-Nov-24 17:14:46 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[23-Nov-24 17:14:46 - INFO] - bot -  
+
+       
+(っ◔◡◔)っ ♥ ULTROIDOFFICIAL ♥
+░╚════╝░░╚════╝░╚═════╝░╚══════╝
+                                          
